@@ -20,7 +20,7 @@ router.get('/hello/:name', hello)
 
 app.use(router.routes())
 
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
 app.listen(port)
   .on('listening', () => console.log(`Listening on port ${port}`))

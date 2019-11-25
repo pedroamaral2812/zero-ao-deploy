@@ -19,6 +19,7 @@
   "homepage": "https://github.com/pedroamaral2812/zero-ao-deploy#readme",
   "dependencies": {
     "koa": "^2.11.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "sequelize": "^5.21.2"
   }
 }
